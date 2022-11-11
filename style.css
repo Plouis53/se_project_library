@@ -1,0 +1,506 @@
+/* Add your class here */
+.page {
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  background-color: #fff;
+  left: auto;
+  right: auto;
+
+}
+
+.header {
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding-top: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.nav {
+  /* Add flex properties here */
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 196px;
+  height: 60px;
+}
+
+.nav__links {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+}
+
+/* Add the hover state styles for .nav__link here */
+
+.header__title {
+  font-size: 66px;
+  line-height: 76px;
+  font-weight: 500;
+  margin: 150px 0 0;
+  max-width: 544px;
+}
+
+.header__description {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 32px 0 0;
+  max-width: 465px;
+}
+
+.header__image {
+  /* Write styles here */
+  max-width: 636px;
+  z-index: 1;
+  display: block;
+  margin: 0px auto;
+  top: 135px;
+  right: 20px;
+  position: absolute;
+}
+
+.header__footer {
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 40px 80px 0;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+/* Add the hover state styles for .header__link here */
+
+.header__address {
+  margin: 0;
+  color: #838383;
+}
+
+.staff {
+  padding-top: 100px;
+  padding-bottom: 140px;
+  background-color: #f2f2f2;
+}
+
+.staff__title {
+  text-align: center;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0 0 24px;
+}
+
+.staff__subtitle {
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  margin: 24px 0 0;
+
+}
+
+/* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
+
+.staff_card {
+  max-width: 760px;
+  margin: 68px; auto 0px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+  padding: 0;
+
+}
+.card {
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 32px 40px 20px 32px;
+  box-sizing: border-box;
+  width: 360px;
+  height: 420px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card__content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__title {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.card__text {
+  margin: 20px 0 0;
+  font-size: 16px;
+  line-height: 24px;
+  position: relative;
+}
+
+.card__footer {
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: #838383;
+  /* Auto margins applied on a flex item automatically extend specified margin to occupy the extra space in the flex container */
+  /* In our case, this pushes the element down to the bottom */
+  margin-top: auto;
+  text-align: center;
+}
+
+.events {
+  padding: 100px 0 120px 80px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+
+.events__content {
+  flex-basis: 580px;
+}
+
+
+.events__heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
+
+.events__title {
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+  margin: 32px 0;
+}
+
+.events__info-section {
+  margin-top: 32px;
+}
+
+.event-info__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.event-info__icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
+}
+
+.event-info__icon_type_calendar {
+ background-image: url(../images/icon_calendar.svg);
+}
+
+.event-info__icon_type_pin {
+  background-image: url(../images/icon_pin.svg);
+}
+
+.event-info__text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
+
+.events__description {
+  margin: 40px 0 60px;
+}
+
+.events__more: {
+  margin-top: 60px;
+  color: #2f80ed;
+  text-decoration: none;
+
+}
+
+.events__more:hover {
+text-color: #1f69c9
+}
+/* Add the hover state styles for .events__more here */
+
+.events__cover {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 780px;
+  max-width: 780px;
+  position: relative;
+}
+
+.events__image {
+  max-width: 100%;
+}
+
+.person {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.person_name_feynman {
+  top: -30px;
+  left: 319px;
+}
+
+.person_name_burbidge {
+  top: 96px;
+  right: 125px;
+}
+
+.person_name_cannon {
+  bottom: 18px;
+  right: 216px;
+}
+
+.person_name_mitchell {
+  bottom: 82px;
+  left: 142px;
+}
+
+.person_name_tarter {
+  top: 79px;
+ left: 159px;
+}
+
+.person__image {
+ max-width: 100%;
+}
+
+.person__image_size_l {
+  width: 140px;
+}
+
+.person__image_size_m {
+  width: 100px;
+}
+
+.person__image_size_s {
+  width: 80px;
+}
+
+.person__caption {
+  text-align: center;
+  font-size: 14px;
+  margin: 0;
+}
+
+.membership {
+  padding-top: 100px;
+  padding-bottom: 140px;
+  background-color: #f2f2f2;
+flex-basis: auto;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+  gap: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 220px;
+  /* Add styles */
+}
+
+.step {
+ flex-basis: 220px;
+  /* Add styles */
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.about {
+  display: flex;
+  padding: 100px 80px;
+  background-color: #1f1f1f;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  margin-top: 0;
+}
+
+.about__title {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  z-index: 1;
+  max-width: 154px;
+  margin: 0;
+  padding: 0;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  max-width: 660px;
+  margin-left: 128px;
+  z-index: 1;
+  gap: 32px;
+}
+
+.about__paragraph {
+  margin: 0;
+}
+
+.about__circle {
+  background-color: #2f80ed;
+  width: 495px;
+  height: 495px;
+  border-radius: 50%;
+  position: absolute;
+  top: -121px;
+  left: -91px;
+  z-index: 0;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  color: #fff;
+  padding-top: 60px;
+  padding-left: 80px;
+  padding-bottom: 60px;
+  padding-right: 102px;
+}
+.footer__column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__columns {
+  min-height: 224px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  column-gap: 100px;
+}
+
+.footer__column_content_hours {
+  margin-left: auto;
+}
+
+.footer__column_content_social {
+  flex-grow: 1;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer__logo {
+  width: 116px;
+  height: 21px;
+}
+
+.footer__list {
+  /* The code below removes the default browser styles for lists */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  padding-top: 16px;
+}
+
+.footer__column-heading {
+  color: white;
+  margin: 0 0 4px;
+  font-size: 16px;
+}
+
+.footer__column-link:hover {
+  color: #c1c1c1;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.footer__copyright {
+  color: white;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
