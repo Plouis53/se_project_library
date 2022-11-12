@@ -440,7 +440,7 @@ flex-basis: auto;
   padding-bottom: 60px;
   padding-right: 102px;
 }
-.footer__column{
+.footer__column {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
