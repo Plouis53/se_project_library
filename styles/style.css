@@ -337,7 +337,6 @@ text-color: #1f69c9
   padding-top: 100px;
   padding-bottom: 140px;
   background-color: #f2f2f2;
-flex-basis: auto;
 }
 
 .membership__title {
@@ -357,7 +356,6 @@ flex-basis: auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 220px;
   /* Add styles */
 }
 
@@ -487,6 +485,15 @@ flex-basis: auto;
   margin: 0 0 4px;
   font-size: 16px;
 }
+
+.footer__column-link{
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+
 
 .footer__column-link:hover {
   color: #c1c1c1;
