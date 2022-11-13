@@ -502,6 +502,7 @@ text-color: #1f69c9
 .footer__social-icon {
   width: 16px;
   height: 16px;
+  display: flex;
   margin-right: 10px;
 }
 
@@ -510,4 +511,8 @@ text-color: #1f69c9
   margin-bottom: 0px;
   margin-left: 0px;
   margin-top: 0px;
+  bottom: 224px;
+  position: relative;
+  display: flex;
+  bottom: auto;
 }
