@@ -1,6 +1,6 @@
 /* Add your class here */
 .page {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: helvetica: Arial, sans-serif;
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
@@ -26,7 +26,6 @@
 
 .nav {
   /* Add flex properties here */
-  justify-content: flex-start;
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -54,13 +53,16 @@
   display: block;
 }
 
+.nav__link:hover{
+  color: #1f69c9;
+}
 /* Add the hover state styles for .nav__link here */
 
 .header__title {
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
-  margin: 150px: 0: 0;
+  margin: 150px: 0 0;
   max-width: 544px;
 }
 
@@ -99,6 +101,9 @@
   text-decoration: none;
 }
 
+.header__link:hover{
+  color: #1f69c9;
+}
 /* Add the hover state styles for .header__link here */
 
 .header__address {
@@ -127,20 +132,16 @@
   margin: 24px 0 0;
 
 }
-
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
 
-.staff_card {
+.staff__cards {
   max-width: 760px;
-  margin: 68px; auto 0px;
+  margin: 68px auto 0px;
   display:flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 40px;
   right: auto;
-  margin-bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
   list-style: none;
   padding: 0;
 
@@ -174,7 +175,6 @@
   margin: 20px 0 0;
   font-size: 16px;
   line-height: 24px;
-  position: relative;
 }
 
 .card__footer {
@@ -185,7 +185,6 @@
   /* Auto margins applied on a flex item automatically extend specified margin to occupy the extra space in the flex container */
   /* In our case, this pushes the element down to the bottom */
   margin-top: auto;
-  text-align: center;
 }
 
 .events {
@@ -254,7 +253,7 @@
   margin: 40px 0 60px;
 }
 
-.events__more: {
+.events__more {
   margin-top: 60px;
   color: #2f80ed;
   text-decoration: none;
@@ -262,7 +261,7 @@
 }
 
 .events__more:hover {
-text-color: #1f69c9
+color: #1f69c9
 }
 /* Add the hover state styles for .events__more here */
 
@@ -433,41 +432,23 @@ text-color: #1f69c9
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: #fff;
-  padding-top: 60px;
-  padding-left: 80px;
-  padding-bottom: 60px;
-  padding-right: 102px;
-
-}
-.footer__column {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
+  padding: 57px 102px 60px 80px;
 }
 
 .footer__columns {
-  min-height: 224px;
   display: flex;
-  align-items: flex-start;
-  flex-direction: row;
-  column-gap: 100px;
 }
 
 .footer__column_content_hours {
   margin-left: auto;
-  display: flex;
-  flex-direction: column;
-  position: relative; left: 360px;
 }
 
 .footer__column_content_social {
-  margin-left: auto;
-  position: static;
+  margin-left: 100px;
 }
 
 .footer__logo {
-  width: 116px;
-  height: 21px;
+  width: 153px;
 }
 
 .footer__list {
@@ -478,14 +459,15 @@ text-color: #1f69c9
 }
 
 .footer__list-item {
-  margin-top: 0;
+ margin-bottom: 16px;
+}
+
+.footer__list-item :last-of-type{
   margin-bottom: 0;
-  padding-top: 16px;
 }
 
 .footer__column-heading {
-  color: white;
-  margin: 0 0 4px;
+  margin: 0 0 20px;
   font-size: 16px;
 }
 
@@ -495,7 +477,7 @@ text-color: #1f69c9
   line-height: 20px;
   text-decoration: none;
   display: flex;
-  gap: 10px;
+  align-items: center;
 }
 
 .footer__column-link:hover {
@@ -505,17 +487,8 @@ text-color: #1f69c9
 .footer__social-icon {
   width: 16px;
   height: 16px;
+  margin-right: 10px;
 }
 
 .footer__copyright {
-  display: flex;
-  color: white;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-top: 0px;
-  bottom: 224px;
-  position: relative;
-  bottom: auto;
-  font-size: 16px;
-  padding-top: 0;
-}
+margin: 108px 0 0;
