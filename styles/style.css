@@ -60,7 +60,7 @@
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
-  margin: 150px 0 0;
+  margin: 150px: 0: 0;
   max-width: 544px;
 }
 
@@ -454,12 +454,15 @@ text-color: #1f69c9
 
 .footer__column_content_hours {
   margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative; left: 370px;
 }
 
 .footer__column_content_social {
   margin-left: auto;
   position: static;
-  
+
 }
 
 .footer__logo {
@@ -476,18 +479,15 @@ text-color: #1f69c9
 }
 
 .footer__list-item {
+  margin-top: 0;
+  margin-bottom: 0;
   padding-top: 16px;
-  margin: 0;
-  display: flex;
-  padding-bottom: 16px;
-  gap: 5px;
 }
 
 .footer__column-heading {
   color: white;
   margin: 0 0 4px;
   font-size: 16px;
-  margin-bottom: 20px;
 }
 
 .footer__column-link{
@@ -495,7 +495,8 @@ text-color: #1f69c9
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
-  padding-left: 16px;
+  display: flex;
+  gap: 10px;
 }
 
 .footer__column-link:hover {
@@ -505,8 +506,6 @@ text-color: #1f69c9
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  display: flex;
-  align-items: center;
 }
 
 .footer__copyright {
