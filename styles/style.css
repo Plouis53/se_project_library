@@ -1,6 +1,6 @@
 /* Add your class here */
 .page {
-  font-family: helvetica: Arial, sans-serif;
+  font-family: helvetica, Arial, sans-serif;
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
@@ -10,7 +10,6 @@
   background-color: #fff;
   left: auto;
   right: auto;
-
 }
 
 .header {
@@ -53,7 +52,7 @@
   display: block;
 }
 
-.nav__link:hover{
+.nav__link:hover {
   color: #1f69c9;
 }
 /* Add the hover state styles for .nav__link here */
@@ -62,7 +61,7 @@
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
-  margin: 150px: 0 0;
+  margin: 150px 0 0;
   max-width: 544px;
 }
 
@@ -101,7 +100,7 @@
   text-decoration: none;
 }
 
-.header__link:hover{
+.header__link:hover {
   color: #1f69c9;
 }
 /* Add the hover state styles for .header__link here */
@@ -130,21 +129,19 @@
   line-height: 30px;
   font-weight: 400;
   margin: 24px 0 0;
-
 }
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
 
 .staff__cards {
   max-width: 760px;
   margin: 68px auto 0px;
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 40px;
   right: auto;
   list-style: none;
   padding: 0;
-
 }
 .card {
   background-color: #fff;
@@ -182,8 +179,6 @@
   font-size: 14px;
   line-height: 20px;
   color: #838383;
-  /* Auto margins applied on a flex item automatically extend specified margin to occupy the extra space in the flex container */
-  /* In our case, this pushes the element down to the bottom */
   margin-top: auto;
 }
 
@@ -195,11 +190,9 @@
   box-sizing: border-box;
 }
 
-
 .events__content {
   flex-basis: 580px;
 }
-
 
 .events__heading {
   font-size: 20px;
@@ -235,7 +228,7 @@
 }
 
 .event-info__icon_type_calendar {
- background-image: url(../images/icon_calendar.svg);
+  background-image: url(../images/icon_calendar.svg);
 }
 
 .event-info__icon_type_pin {
@@ -257,11 +250,10 @@
   margin-top: 60px;
   color: #2f80ed;
   text-decoration: none;
-
 }
 
 .events__more:hover {
-color: #1f69c9
+  color: #1f69c9;
 }
 /* Add the hover state styles for .events__more here */
 
@@ -307,11 +299,11 @@ color: #1f69c9
 
 .person_name_tarter {
   top: 79px;
- left: 159px;
+  left: 159px;
 }
 
 .person__image {
- max-width: 100%;
+  max-width: 100%;
 }
 
 .person__image_size_l {
@@ -359,7 +351,7 @@ color: #1f69c9
 }
 
 .step {
- flex-basis: 220px;
+  flex-basis: 220px;
   /* Add styles */
 }
 
@@ -459,10 +451,10 @@ color: #1f69c9
 }
 
 .footer__list-item {
- margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
-.footer__list-item :last-of-type{
+.footer__list-item :last-of-type {
   margin-bottom: 0;
 }
 
@@ -471,7 +463,7 @@ color: #1f69c9
   font-size: 16px;
 }
 
-.footer__column-link{
+.footer__column-link {
   color: white;
   font-size: 16px;
   line-height: 20px;
@@ -491,4 +483,5 @@ color: #1f69c9
 }
 
 .footer__copyright {
-margin: 108px 0 0;
+  margin: 108px 0 0;
+}
